@@ -1,0 +1,248 @@
+[33m[nodemon] 1.19.4[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching dir(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:00:18 GMT+0900 (GMT+09:00)] Listening on 8000
+[Fri Jul 24 2020 16:00:36 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
+[Fri Jul 24 2020 16:00:36 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
+[Fri Jul 24 2020 16:00:36 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
+[Fri Jul 24 2020 16:00:39 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
+name=asdf&yaki-shabu=%E7%84%BC%E3%81%8D%E8%82%89
+[Fri Jul 24 2020 16:00:39 GMT+0900 (GMT+09:00)] 投稿: name=asdf&yaki-shabu=焼き肉
+[Fri Jul 24 2020 16:00:39 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:00:57 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+/home/vagrant/workspace2/intro-curriculum-3014/index.js:25
+        console.log(body.name + );
+                                ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:282:19)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:01:20 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:01:20 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:01:23 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:01:33 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:01:38 GMT+0900 (GMT+09:00)] Listening on 8000
+[Fri Jul 24 2020 16:01:42 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
+[Fri Jul 24 2020 16:01:42 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
+[Fri Jul 24 2020 16:01:42 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
+[Fri Jul 24 2020 16:01:50 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
+/home/vagrant/workspace2/intro-curriculum-3014/index.js:25
+        console.log(body.name + decodeURIComponent(body.yaki-shabu));
+                                                             ^
+
+ReferenceError: shabu is not defined
+    at IncomingMessage.req.on.on (/home/vagrant/workspace2/intro-curriculum-3014/index.js:25:62)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1094:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:02:37 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:02:41 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:02:43 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+/home/vagrant/workspace2/intro-curriculum-3014/index.js:26
+        console.log(decoded.name + decoded.yaki-shabu));
+                                                      ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:282:19)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:02:51 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:02:52 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:03:01 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:03:03 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:03:04 GMT+0900 (GMT+09:00)] Listening on 8000
+[Fri Jul 24 2020 16:03:08 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
+/home/vagrant/workspace2/intro-curriculum-3014/index.js:26
+        console.log(answer.name + answer.yaki-shabu);
+                                              ^
+
+ReferenceError: shabu is not defined
+    at IncomingMessage.req.on.on (/home/vagrant/workspace2/intro-curriculum-3014/index.js:26:47)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1094:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:03:37 GMT+0900 (GMT+09:00)] Listening on 8000
+[Fri Jul 24 2020 16:03:48 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
+[Fri Jul 24 2020 16:03:48 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
+[Fri Jul 24 2020 16:03:51 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
+[Fri Jul 24 2020 16:03:51 GMT+0900 (GMT+09:00)] 投稿: name=asdf&yaki_shabu=しゃぶしゃぶ
+[Fri Jul 24 2020 16:03:51 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+/home/vagrant/workspace2/intro-curriculum-3014/index.js:28
+        res.write('<!DOCTYPE html><html lang="ja"><body><h1>名前：</h1>
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:282:19)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:05:20 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:05:27 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:05:29 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+/home/vagrant/workspace2/intro-curriculum-3014/index.js:28
+        res.write('<!DOCTYPE html><html lang="ja"><body><h1>名前：</h1>
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:282:19)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:05:39 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+/home/vagrant/workspace2/intro-curriculum-3014/index.js:28
+        res.write('<!DOCTYPE html><html lang="ja"><body><h1>名前：''</h1><h1>が投稿されました</h1></body></html>');
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:282:19)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+/home/vagrant/workspace2/intro-curriculum-3014/index.js:28
+        res.write('<!DOCTYPE html><html lang="ja"><body><h1>名前：'++ '</h1><h1>が投稿されました</h1></body></html>');
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+ReferenceError: Invalid left-hand side expression in postfix operation
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:282:19)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:05:47 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:05:52 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+/home/vagrant/workspace2/intro-curriculum-3014/index.js:28
+        res.write('<!DOCTYPE html><html lang="ja"><body><h1>名前：' + answer.name + '</h1><h1>''が投稿されました</h1></body></html>');
+                                                                                 ^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:282:19)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:06:00 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:06:06 GMT+0900 (GMT+09:00)] Listening on 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[Fri Jul 24 2020 16:06:06 GMT+0900 (GMT+09:00)] Listening on 8000
+[Fri Jul 24 2020 16:06:11 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
+[Fri Jul 24 2020 16:06:11 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
+[Fri Jul 24 2020 16:06:11 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
+[Fri Jul 24 2020 16:06:19 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
+須藤しゃぶしゃぶ
+[Fri Jul 24 2020 16:06:19 GMT+0900 (GMT+09:00)] 投稿: name=須藤&yaki_shabu=しゃぶしゃぶ
+[Fri Jul 24 2020 16:06:20 GMT+0900 (GMT+09:00)] Requested by ::ffff:10.0.2.2
